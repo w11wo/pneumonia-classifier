@@ -8,4 +8,4 @@ The Neural Network uses VGG19/ImageNet as its base model and CNN architecture.
 Kaggle Kernel:
 https://www.kaggle.com/wilsonwong961/cnn-with-vgg19?scriptVersionId=17148397
 
-![pneumonia-confusion-matrix.png](pneumonia-confusion-matrix.png?raw=true "pneumonia-confusion-matrix.png")
+![vgg_model_cm.png](vgg_model_cm.png?raw=true "vgg_model_cm.png")
