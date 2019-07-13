@@ -1,5 +1,5 @@
 # Find this Kaggle kernel at:
-# https://www.kaggle.com/wilsonwong961/cnn-with-vgg19?scriptVersionId=17144986
+# https://www.kaggle.com/wilsonwong961/cnn-with-vgg19?scriptVersionId=17148397
 
 import numpy as np  # linear algebra
 import pandas as pd  # data processing, CSV file I/O (e.g. pd.read_csv)\
@@ -80,7 +80,7 @@ model.fit_generator(
 loss, test_acc = model.evaluate_generator(
     test_generator,
     steps=None,
-    max_queue_size=10,
+    max_queue_size=20,
     workers=1,
     use_multiprocessing=True,
     verbose=1
